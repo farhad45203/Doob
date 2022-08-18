@@ -1,0 +1,400 @@
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+html,
+body { height: 100% }
+body {
+
+}
+a:hover { text-decoration: none }
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+
+
+.section-padding-header-top {
+    padding: 20px 0;
+}
+
+.header-logo {
+    padding: 0 50px;
+    display: inline-table;
+}
+
+.menu-area {
+    margin: 0;
+    padding: 0;
+}
+
+.left-nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+.left-nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding-right: 45px;
+}
+
+.left-nav ul li a {
+    color: #314584 !important;
+}
+.section-padding-banner-area{
+    padding: 100px 0;
+}
+.banner-content {
+    padding: 100px 0;
+}
+
+.banner-content h2 {
+    font-size: 73.48px;
+    color: #314584;
+}
+
+.banner-content p {
+    font-size: 18px;
+    color: #6e757a;
+    padding: 40px 0;
+}
+
+.banner-content button.btn {
+    background: none;
+    padding: 10px 40px;
+    border-radius: 20px;
+}
+
+.banner-content button.btn.active {
+    background: #F63D4C;
+    color: #ffffff;
+}
+.padding-service-area {
+    padding: 80px 0;
+}
+.service-title h3 {
+    font-size: 45px;
+    color: #314584;
+    padding-bottom: 30px;
+}
+.service-title button.btn.active {
+    background: #F63D4C;
+    border-radius: 20px;
+    padding: 10px 40px;
+    color: #ffffff;
+    font-size: 18px;
+}
+.service-item {
+    max-width: 320px;
+    min-height: 385px;
+    box-shadow: 1px 1px 10px 10px #F5F5F5;
+    padding: 25px;
+}
+.service-item h4 {
+    font-size: 27.44px;
+    color: #314584;
+    padding: 40px 0 30px;
+}
+
+span {
+    color: #ff3946;
+    font-size: 18px;
+}
+
+h5 {
+    font-size: 48.43px;
+    color: #314584;
+    padding: 25px 0px 35px;
+}
+
+.section-padding-about-area {
+    padding: 100px 0;
+}
+
+.about-area .about-title .owl-nav {
+    position: absolute;
+    display: flex;
+    bottom: -50px;
+}
+
+.about-area  .owl-nav .owl-prev {
+    margin-right: 25px;
+}
+
+.portfolio-area{
+    position: relative;
+}
+
+.portfolio-section-padding {
+    padding: 100px 0;
+}
+
+.single-porfolio-contant img {
+    margin-bottom: 30px;
+}
+
+.portfolio-area .owl-nav {
+    position: absolute;
+    top: -70px;
+    right: 0;
+    display: flex;
+}
+
+.portfolio-area .owl-nav .owl-prev {
+    margin-right: 25px;
+}
+
+.portfolio-bottom-section-padding {
+    text-align: center;
+    padding: 25px 0;
+}
+
+.portfolio-bottom-section-padding a span:hover {
+    background: #ff3946;
+    color: #ffffff;
+    padding: 15px 40px;
+    border-radius: 30px;
+    transition: .30s;
+}
+
+.blog-area {
+    position: relative;
+}
+
+.blog-content {
+    margin: 25px 0 35px;
+}
+
+.blog-area-section-padding {
+    padding-bottom: 50px;
+}
+
+.blog-title {
+    margin-bottom: -30px;
+}
+
+.sigle-blog-content {
+    margin: 30px;
+    box-shadow: 1px 1px 10px 10px #F5F5F5;
+    padding: 40px 40px 60px;
+}
+
+.sigle-blog-content:hover {
+    background: #ff3946;
+    transition: 1s;
+}
+
+.sigle-blog-content:hover h6 {
+    color: #ffffff;
+    transition: .5s;
+}
+
+.sigle-blog-content:hover span {
+    color: #ffffff;
+    transition: .5s;
+}
+
+.sigle-blog-content:hover p {
+    color: #ffffff;
+    transition: .5s;
+}
+
+.sigle-blog-content:hover a {
+    color: #ffffff;
+    transition: .5s;
+}
+
+.blog-area  .owl-nav {
+    position: absolute;
+    top: -70px;
+    right: 0;
+    display: flex;
+}
+
+.blog-area  .owl-nav .owl-prev {
+    margin-right: 25px;
+}
+
+.blog-area .owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled {
+    display: flex;
+}
+
+.sigle-blog-content h6 {
+    font-size: 18px;
+    color: #314584;
+}
+
+.sigle-blog-content span{
+    font-size: 14px;
+    color: #6e757a;
+}
+
+.sigle-blog-content p {
+    padding: 30px 0 10px;
+    color: #314584;
+}
+
+.sigle-blog-content a {
+    float: right;
+    padding-right: 40px;
+    font-size: 20px;
+    color: #ff3946;
+}
+
+.contact-section h5 {
+    font-size: 48.43px;
+    color: #314584;
+    padding: 30px 0px 55px;
+}
+
+.contact-section-padding {
+    padding: 50px 0 100px;
+}
+
+.contanct-from input[type="text"] {
+    width: 100%;
+    border: none;
+    background: #f4fafe;
+    padding: 15px;
+}
+
+.contanct-from input[type="text"]:focus {
+    outline: none;
+}
+
+.contanct-from input[type="text"]::placeholder {
+    color: #314584;
+}
+
+.contanct-from textarea#massage::placeholder {
+    color: #314584;
+}
+
+.contanct-from .sbmit-btn {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contanct-from textarea#massage {
+    width: 100%;
+    border: none;
+    background: #f4fafe;
+    padding: 15px;
+    margin: 25px 0;
+    height: 120px;
+}
+
+.contanct-from textarea#massage:focus {
+    outline: none;
+}
+
+.contanct-from a {
+    background: #ff3946;
+    padding: 20px 40px;
+    border-radius: 30px;
+    color: #ffffff;
+    display: inline-block;
+}
+
+.fotter-area {
+    background: #314584;
+    color: #ffffff;
+}
+
+.fotter-section-padding.text-center {
+    padding: 70px 0 50px;
+}
+
+.fotter-area span{
+    color: #ffffff;
+}
+
+.fotter-area h5 {
+    color: #ff3946;
+    padding: 25px 0 45px;
+}
+
+.fotter-copyright p {
+    font-size: 14px;
+    padding: 30px 0 20px;
+}
+
+.fotter-area li {
+    list-style: none;
+    display: inline-block;
+}
+.fotter-area li a {
+    color: #ffffff;
+    padding: 0px 35px;
+}
+
+.fotter-social-bar ul li {
+    font-size: 35px;
+}
+
+.bg-shape-1 {
+    background: url(assets/img/Bg.%20Shape-1.png);
+    background-repeat: no-repeat;
+    float: right;
+}
+
+section.mobileMenuArea {
+    display: none;
+}
+
+.mobileMenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0 15px;
+}
+.navBar, .navClose {
+    cursor: pointer;
+    padding: 0 20px;
+    font-size: 20px;
+}
+.left-nav {
+    display: block;
+    text-align: right;
+}
+.left-nav.show {
+    display: block;
+    width: 100%;
+}
+.navBar.hide, .navClose {
+    display: none;
+}
+.navClose.show {
+    display: block;
+}
+.navBar span {
+    height: 3px;
+    width: 20px;
+    background-color: #3d3d3d;
+    display: flex;
+    margin-bottom: 3px;
+}
+.mobileNav ul li {
+    padding: 10px 0;
+    list-style: none;
+}
+section.mobileMenuArea ul {
+    display: grid;
+}
+
+section.mobileMenuArea ul li {
+    padding: 10px 0;
+}
